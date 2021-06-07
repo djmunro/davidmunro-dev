@@ -1,0 +1,19 @@
+---
+title: "2019 Year in Review"
+---
+
+# Hello, World!
+
+Hello
+
+```js
+import { frontMatter as blogPosts } from './blog/**/*.mdx';
+
+const Blog = () => (
+    blogPosts.map((frontMatter) => (
+        <BlogPost key={frontMatter.title} {...frontMatter} />
+    ))}
+);
+```
+
+this is some code
