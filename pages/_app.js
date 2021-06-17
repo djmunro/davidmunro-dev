@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import { MDXProvider } from "@mdx-js/react";
 
-import { SiteLayout } from "../components/SiteLayout";
+import { SiteLayout } from "../components/layouts/SiteLayout";
 
 function MyApp({ Component, pageProps }) {
   const getLayout =
