@@ -1,6 +1,6 @@
 import React from "react";
 
-import { getLayout } from "../components/layouts/SiteLayout";
+import { getLayout } from "components/layouts/SiteLayout";
 
 export default function About() {
   return (
